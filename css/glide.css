@@ -1,5 +1,5 @@
 .carousel {
-  max-height: 600px;
+  height: 700px;
   max-width: 90vw;
   margin: 0 50px 0 100px;
   display: flex;
@@ -10,7 +10,7 @@
 /* Основные стили карусели */
 .glide {
   position: relative;
-  max-height: 700px;
+  height: 700px;
   margin: 0 auto;
 }
 
@@ -49,6 +49,5 @@
   display: none;
 }
 .glide__slide img{
-  max-height: 600px;
-  max-width: 250px;
+  height: 600px;
 }
