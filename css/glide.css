@@ -49,5 +49,5 @@
   display: none;
 }
 .glide__slide img{
-  height: 600px;
+  max-height: 600px;
 }
