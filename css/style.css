@@ -42,6 +42,8 @@ header{
     justify-content: center;
     border-radius: 25px;
     height: 75vh;
+    position: relative;
+    overflow: hidden;
 }
 .line-1{
     padding-top: 20px;
@@ -175,3 +177,25 @@ video{
     font-size: 35px;
     margin: 0 auto;
 }
+
+
+
+        .video-background {
+            position: sticky;
+            top: -250px;
+            left: 0;
+            height: 150%;
+            width: 160%;
+            z-index: 1; /* Отправляем видео на задний план */
+             /* Растягиваем видео, сохраняя пропорции *//* Обрезаем лишнее */
+            object-fit: fill;
+        }
+        .card-content{
+            top: -450px;
+            position: relative;
+            z-index: 2;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        
+        }
