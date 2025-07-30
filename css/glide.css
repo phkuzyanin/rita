@@ -1,5 +1,5 @@
 .carousel {
-  max-height: 500px;
+  max-height: 100px;
   max-width: 90vw;
   margin: 0 50px 0 100px;
   display: flex;
@@ -49,5 +49,5 @@
   display: none;
 }
 .glide__slide img{
-  max-height: 500px;
+  max-height: 100px;
 }
