@@ -48,3 +48,6 @@
 .glide__arrows {
   display: none;
 }
+.glide__slide img{
+  height: 600px;
+}
