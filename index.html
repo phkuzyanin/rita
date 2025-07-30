@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рита</title>
+    <!--СТИЛИ РАЗМЕТКИ-->
+
+    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/glide.css">
+    
+    <!--ШРИФТЫ-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+
+    <!--СТИЛИ КАРУСЕЛИ-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.5.2/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.5.2/dist/css/glide.theme.min.css">
+</head>
+<body>
+    <div class="wrapper">
+    <div class="header">
+        <header>
+            <div class="date">30 jul</div>
+            <div class="year">2025</div>
+            <div class="from">from v.</div>
+        </header>
+        <div class="card">
+            <div class="line-1">с днем рождения,</div>
+            <div class="line-2">Рита</div>
+            <div class="line-3">третий день рождения вместе</div>
+            <div class="line-4"> пусть я не могу пока быть рядом и подарить тебе что-то вживую – надеюсь,эта открытка тебя порадует</div>
+        </div>
+    </div>
+    <main  class="parallax-container">
+        <section class="first">
+            <div class="image-stack">
+              <div class="image-stack__item image-stack__item--bottom">
+                <img src="./img/3 1.png" alt="Фоновое изображение">
+              </div>
+              <div class="image-stack__item image-stack__item--top">
+                <img src="./img/7 1.png" alt="Наложенное изображение">
+              </div>
+            </div>
+            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </div>
+        </section>
+        <section class="second">
+            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+            <img src="./img/2 26.png" alt="">
+        </section>
+        <section class="third">
+            <img src="./img/10 1.png" alt="">
+            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+        </section>
+        <div class="carousel">
+          <div class="text">а помнишь?</div>
+  <div class="glide">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        <li class="glide__slide">
+          <img src="./img/carousel/4 1.png" alt="Описание 1">
+        </li>
+        <li class="glide__slide">
+          <img src="./img/carousel/5 1.png" alt="Описание 2">
+        </li>
+        <li class="glide__slide">
+          <img src="./img/carousel/6 1.png" alt="Описание 3">
+        </li>
+        <li class="glide__slide">
+          <img src="./img/carousel/8.png" alt="Описание 3">
+        </li>
+        <li class="glide__slide">
+          <img src="./img/carousel/9.png" alt="Описание 3">
+        </li>
+        <li class="glide__slide">
+          <img src="./img/carousel/11.png" alt="Описание 3">
+        </li><li class="glide__slide">
+          <img src="./img/carousel/12.png" alt="Описание 3">
+        </li>
+        <li class="glide__slide">
+          <img src="./img/carousel/13.png" alt="Описание 3">
+        </li><li class="glide__slide">
+          <img src="./img/carousel/14.png" alt="Описание 3">
+        </li>
+        <li class="glide__slide">
+          <img src="./img/carousel/15.png" alt="Описание 3">
+        </li><li class="glide__slide">
+          <img src="./img/carousel/16.png" alt="Описание 3">
+        </li>
+        <li class="glide__slide">
+          <img src="./img/carousel/17.png" alt="Описание 3">
+        </li><li class="glide__slide">
+          <img src="./img/carousel/18.png" alt="Описание 3">
+        </li>
+        <li class="glide__slide">
+          <img src="./img/carousel/19.png" alt="Описание 3">
+        </li>  
+        <!-- Добавьте остальные фото -->
+      </ul>
+    </div>
+    
+
+    
+    <!-- Индикаторы (точки) -->
+    <div class="glide__bullets" data-glide-el="controls[nav]">
+      <button class="glide__bullet" data-glide-dir="=0"></button>
+      <button class="glide__bullet" data-glide-dir="=1"></button>
+      <button class="glide__bullet" data-glide-dir="=2"></button>
+    </div>
+  </div>
+</div>
+
+      </main>
+    <div class="footer">
+      <div class="text">а вот тут можно <br> 
+посмотреть мини-видео</div>
+      <video controls width="1080" height="650" src="./C9670.MP4">
+      </video>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.5.2/dist/glide.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    new Glide('.glide', {
+      type: 'carousel',
+      startAt: 0,
+      perView: 3,
+      gap: 10,
+      autoplay: 3000,
+      breakpoints: {
+        768: {
+          perView: 1
+        }
+      }
+    }).mount();
+  });
+</script>
+</body>
+</html>

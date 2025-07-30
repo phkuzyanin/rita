@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Shlapak";
+  src:
+    url("../Shlapak\ Script.otf"), format("otf");
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    padding: 20px 52px 75px 52px;
+    display: flex;
+    flex-direction: column;
+    background-color: #343434;
+    height: 100vh;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:#fff;
+    font-family: "Jost", sans-serif;
+    font-size: 35px;
+}
+.card{
+    margin: 20px 150px;
+    padding: 62px 245px 110px;
+    color: #fff;
+    background-color: rgba(217, 217, 217, 0.33);
+    font-family: "Jost", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+.line-1{
+    padding-top: 20px;
+    font-size: 61px;
+}
+.line-2{
+    font-family: "Shlapak";
+    font-size: 212px;
+}
+.line-3, .line-4{
+    font-size: 25px;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.first, .second, .third{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    justify-content: space-between;
+    gap: 100px;
+}
+.first{
+        padding: 50px 250px 50px 0;
+}
+.second{
+        padding: 50px 0 50px 250px;
+}
+.third{
+    padding: 50px 250px 50px 0;
+}
+.image-stack {
+  position: relative;
+  width: 100%; /* или фиксированная ширина, например 600px */
+  max-width: 1000px; /* ограничение максимальной ширины */
+  margin: 0 auto; /* центрирование */
+  border: none; /* Убирает границу */
+  outline: none; /* Убирает outline */
+}
+
+.image-stack__item {
+  width: 100%;
+}
+
+/* Нижнее изображение (можно немного сместить для эффекта) */
+.image-stack__item--bottom {
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+/* Верхнее изображение */
+.image-stack__item--top {
+position: absolute;
+  z-index: 1;
+  top: 150px; /* смещение сверху */
+  left: 150px; /* смещение слева */
+}
+
+/* Стили для изображений внутри */
+.image-stack img {
+    width: 600px;
+    height: 650px;
+    display: block;
+
+}
+.second img, .third img{
+    height: 1000px;
+}
+.carousel .text {
+    font-family: "Jost";
+    font-size: 65px;
+}
+.footer .text{
+    width: 826px;
+    font-family: "Jost";
+    font-size: 65px;    
+    text-align: center;
+}
+.footer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
