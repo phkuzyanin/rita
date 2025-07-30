@@ -63,10 +63,11 @@ main{
     overflow: hidden;
     background-image: url('../img/Group\ 4.png');
     text-align: center;
-    background-size:cover;
-    background-position: center;
+    background-size:100% 72%;
+    background-position: center 425px;
     background-repeat: no-repeat;
     gap: 75px;
+    padding-bottom: 150px;
 }
 
 .first, .second, .third{
@@ -77,6 +78,7 @@ main{
     font-size: 30px;
     justify-content: space-between;
     gap: 100px;
+    text-align: left;
 }
 .first{
         padding: 50px 250px 50px 0;
@@ -131,6 +133,7 @@ position: absolute;
 .carousel .text {
     font-family: "Jost";
     font-size: 65px;
+    padding-bottom: 15px;
 }
 .footer .text{
     width: 826px;
@@ -139,14 +142,15 @@ position: absolute;
     text-align: center;
 }
 .footer{
-    margin-top: 40px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 50px;
 }
 video{
+    margin-top: 25px;
     border-radius: 25px;
 }
 .whishes{
@@ -166,6 +170,8 @@ video{
     border-right: #16489D solid 5px;
 }
 .whhshh{
+    text-align: left;
     font-family: 'Jost';
     font-size: 35px;
+    margin: 0 auto;
 }
