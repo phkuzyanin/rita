@@ -18,7 +18,7 @@ body, html {
     display: flex;
     flex-direction: column;
     background-color: #343434;
-    min-height: 100vh;
+    height: 100vh;
 
 }
 header{
@@ -30,9 +30,9 @@ header{
     font-size: 35px;
 }
 .card{
-    height: 90vh;
+    max-height: 90vh;
     margin: 20px 150px;
-    padding: 62px 245px 110px;
+    padding: 90px 225px 50px;
     color: #fff;
     background-color: rgba(217, 217, 217, 0.33);
     font-family: "Jost", sans-serif;
