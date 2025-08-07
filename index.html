@@ -4,140 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Рита</title>
-    <!--СТИЛИ РАЗМЕТКИ-->
 
-    
+
+    <!--СТИЛИ РАЗМЕТКИ-->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/glide.css">
+    <link rel="stylesheet" href="./css/carousel.css">
     
+
     <!--ШРИФТЫ-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
 
-    <!--СТИЛИ КАРУСЕЛИ-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.5.2/dist/css/glide.core.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.5.2/dist/css/glide.theme.min.css">
-</head>
+    <!--КАРУСЕЛЬ-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+  </head>
 <body>
     <div class="wrapper">
     <div class="header">
         <header>
-            <div class="date">30 jul</div>
-            <div class="year">2025</div>
-            <div class="from">from v.</div>
+            <span class="date">30 jul</span>
+            <span class="year">2025</span>
+            <span class="from">from v.</span>
         </header>
         <div class="card">
            <video class="video-background" autoplay muted loop>
             <source src="./z.MOV" type="video/mp4">
             </video>
           <div class="card-content">
-            <div class="line-1">с днем рождения,</div>
-            <div class="line-2">Рита</div>
-            <div class="line-3"><strong>третий день рождения вместе!</strong></div>
-            <div class="line-4"> пусть я не могу пока быть рядом и подарить тебе что-то вживую – надеюсь,эта открытка тебя порадует</div>
+            с днем рождения,<br>
+            <span class="name">Рита</span><br>
+            <strong>третий день рождения вместе!</strong><br>
+            пусть я не могу пока быть рядом и подарить тебе что-то вживую – надеюсь,эта открытка тебя порадует
+          </div>
         </div>
-        </div>
+      </div>
     </div>
-    <main  class="parallax-container">
-        <section class="first">
-            <div class="image-stack">
-              <div class="image-stack__item image-stack__item--bottom">
-                <img src="./img/3 1.png" alt="Фоновое изображение">
-              </div>
-              <div class="image-stack__item image-stack__item--top">
-                <img src="./img/7 1.png" alt="Наложенное изображение">
-              </div>
-            </div>
-            <div class="text">Когда мы встретились в ко-опе геншина 
-в декабре 2021, я даже не могла представить, что этот очень общительный Кейя-мейн станет мне одним из самых дорогих людей, любовь
-к которому я бережно пронесу через стабильные 1800 км и 1317 дней(да, я creep и посчитала….) <br><br>
-Одно время я очень переживала, что вместе
-с геншином я могу остаться для тебя
-в прошлом – и как же я рада, что этого
-не произошло <br><br>
-Моя светлая голубая мечта – это пожитьв одном городе или хотя бы стране. Обожаю нашу традицию с письмами и подарками,
-у меня такого еще ни с кем не было...
-Хотелось бы и самой чаще тебе что-то присылать!
-</div>
-        </section>
-        <section class="second">
+    <main class="parallax-container">
+        <section class="main-content">
+            <img src="./img/main-1.png" alt="">
             <div class="text">
-           Ты не представляешь, как я горжусь тем, что ты моя подруга! И мне иногда сложно поверить, как может поменяться жизнь за такой маленький срок – мы уже обе получили вышку, пытаемся в карьеру, строим серьезные отношения... <br><br>
-Пусть мы не всегда играем главные роли в историях друг друга, мне нравится думать, что мы как листики, упавшие в течение бурной реки. Даже дрейфуя в разных ее частях, я знаю, что мы встречаемся снова раз за разом
-<br><br>
-Мое сердце всегда с тобой, в печали и в радости,
-ты навсегда моя лучшая подружка
+              Когда мы встретились в ко-опе геншина 
+              в декабре 2021, я даже не могла представить, что этот очень общительный Кейя-мейн станет мне одним из самых дорогих людей, любовь
+              к которому я бережно пронесу через стабильные 1800 км и 1317 дней(да, я creep и посчитала….) <br><br>
+              Одно время я очень переживала, что вместе
+              с геншином я могу остаться для тебя
+              в прошлом – и как же я рада, что этого
+              не произошло 
+              <br><br>
+              Моя светлая голубая мечта – это пожитьв одном городе или хотя бы стране. Обожаю нашу традицию с письмами и подарками,
+              у меня такого еще ни с кем не было...
+              Хотелось бы и самой чаще тебе что-то присылать!
             </div>
-            <img src="./img/2 26.png" alt="">
         </section>
-        <section class="third">
-            <img src="./img/10 1.png" alt="">
+        <section class="main-content">
+            <div class="text">
+              Ты не представляешь, как я горжусь тем, что ты моя подруга! И мне иногда сложно поверить, как может поменяться жизнь за такой маленький срок – мы уже обе получили вышку, пытаемся в карьеру, строим серьезные отношения... <br><br>
+              Пусть мы не всегда играем главные роли в историях друг друга, мне нравится думать, что мы как листики, упавшие в течение бурной реки. Даже дрейфуя в разных ее частях, я знаю, что мы встречаемся снова раз за разом
+              <br><br>
+              Мое сердце всегда с тобой, в печали и в радости,
+              ты навсегда моя лучшая подружка
+            </div>
+            <img src="./img/main-2.png" alt="">
+        </section>
+        <section class="main-content">
+            <img src="./img/main-3.png" alt="">
             <div class="text">
               Короче, Ритуля, люблю я тебя неимоверно и скучаю по тебе жестко!!! Надеюсь, этот день тебя окутал радостью, да и все остальные дни тоже
-<br><br>
-Жду с нетерпением, когда мы откроем для себя новую точку на карте, но прежде всего жду, когда смогу тебя крепко обнять <3
-              </div>
+              <br><br>
+              Жду с нетерпением, когда мы откроем для себя новую точку на карте, но прежде всего жду, когда смогу тебя крепко обнять <3
+            </div>
         </section>
-        <div class="carousel">
-          <div class="text">а помнишь?</div>
-  <div class="glide">
-    <div class="glide__track" data-glide-el="track">
-      <ul class="glide__slides">
-        <li class="glide__slide">
-          <img src="./img/carousel/4 1.png" alt="Описание 1">
-        </li>
-        <li class="glide__slide">
-          <img src="./img/carousel/5 1.png" alt="Описание 2">
-        </li>
-        <li class="glide__slide">
-          <img src="./img/carousel/6 1.png" alt="Описание 3">
-        </li>
-        <li class="glide__slide">
-          <img src="./img/carousel/8.png" alt="Описание 3">
-        </li>
-        <li class="glide__slide">
-          <img src="./img/carousel/9.png" alt="Описание 3">
-        </li>
-        <li class="glide__slide">
-          <img src="./img/carousel/11.png" alt="Описание 3">
-        </li><li class="glide__slide">
-          <img src="./img/carousel/12.png" alt="Описание 3">
-        </li>
-        <li class="glide__slide">
-          <img src="./img/carousel/13.png" alt="Описание 3">
-        </li><li class="glide__slide">
-          <img src="./img/carousel/14.png" alt="Описание 3">
-        </li>
-        <li class="glide__slide">
-          <img src="./img/carousel/15.png" alt="Описание 3">
-        </li><li class="glide__slide">
-          <img src="./img/carousel/16.png" alt="Описание 3">
-        </li>
-        <li class="glide__slide">
-          <img src="./img/carousel/17.png" alt="Описание 3">
-        </li><li class="glide__slide">
-          <img src="./img/carousel/18.png" alt="Описание 3">
-        </li>
-        <li class="glide__slide">
-          <img src="./img/carousel/19.png" alt="Описание 3">
-        </li>  
-        <!-- Добавьте остальные фото -->
-      </ul>
-    </div>
-    
-
-    
-    <!-- Индикаторы (точки) -->
-    <div class="glide__bullets" data-glide-el="controls[nav]">
-      <button class="glide__bullet" data-glide-dir="=0"></button>
-      <button class="glide__bullet" data-glide-dir="=1"></button>
-      <button class="glide__bullet" data-glide-dir="=2"></button>
-    </div>
-  </div>
-</div>
+        <section class="carousel">
+            <div class="owl-carousel owl-theme">
+              <div class="item"><img src="./img/carousel/11.png" alt="Image 1"></div>
+              <div class="item"><img src="./img/carousel/12.png" alt="Image 2"></div>
+              <div class="item"><img src="./img/carousel/13.png" alt="Image 3"></div>
+              <div class="item"><img src="./img/carousel/14.png" alt="Image 4"></div>
+              <div class="item"><img src="./img/carousel/15.png" alt="Image 5"></div>
+              <div class="item"><img src="./img/carousel/16.png" alt="Image 6"></div>
+              <div class="item"><img src="./img/carousel/17.png" alt="Image 7"></div>
+              <div class="item"><img src="./img/carousel/18.png" alt="Image 8"></div>
+              <div class="item"><img src="./img/carousel/19.png" alt="Image 9"></div>
+              <div class="item"><img src="./img/carousel/4 1.png" alt="Image 10"></div>
+              <div class="item"><img src="./img/carousel/5 1.png" alt="Image 11"></div>
+              <div class="item"><img src="./img/carousel/6 1.png" alt="Image 12"></div>
+              <div class="item"><img src="./img/carousel/8.png" alt="Image 13"></div>
+              <div class="item"><img src="./img/carousel/9.png" alt="Image 14"></div>
+            </div>
+            <div class="custom-nav">
+              <button class="custom-prev carousel-nav"><img src="./img/icon/arrow-left.svg" alt=""></button>
+              <button class="custom-next carousel-nav"><img src="./img/icon/arrow-right.svg" alt=""></button>
+            </div>
+        </section>
          <div class="whishes">
           <p>В этом году<br>я желаю <mark class="whs">тебе</mark>  </p>
         </div>     
@@ -153,22 +119,36 @@
 
     <div class="footer">
       <div class="text">а вот тут можно <br> 
-посмотреть<mark style="background-image: url('./img/кружочек.png'); background-position: center; background-color: white;background-size: 100% 100%;background-position:6px 5px; background-repeat: no-repeat; padding: 2px 30px 0 30px;"> мини-видео</mark></div>
+посмотреть<span style="background-image: url('./img/кружочек.png'); background-position: center; background-color: white;background-size: 100% 100%;background-position:6px 5px; background-repeat: no-repeat; padding: 2px 30px 0 30px;"> мини-видео</span>
+      </div>
       <video controls width="1080" height="650" src="">
       </video>
     </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.5.2/dist/glide.min.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    new Glide('.glide', {
-      type: 'carousel',
-      startAt: 1,
-      perView: 3,
-      gap: 5,
-      autoplay: 3000,
-    }).mount();
-  });
-</script>
+  
+  
+    <!--ПОДКЛЮЧЕНИЕ СКРИПТА КАРУСЕЛИ-->
+  <script>
+    $(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+        loop: true,         // Бесконечная прокрутка
+        margin: 20,         // Отступ между элементами
+        nav: false,          // Кнопки навигации (вперед/назад)
+        dots: false,         // Точки-индикаторы
+        autoplay: true,     // Автопрокрутка
+        center: true,         // Центрирование активного элемента
+        URLhashListener: true,// Изменение хэша URL при переключении
+        animateOut: 'fadeOut',// Анимация исчезновения
+        animateIn: 'flipIn',
+        autoplayTimeout: 10000, // Интервал (мс)
+        responsive: {        // Адаптивность
+          0: { items: 1 },   // На экранах 0px и больше: 1 элемент
+          600: { items: 3 }, // На экранах 600px и больше: 3 элемента
+          1000: { items: 5 } // На экранах 1000px и больше: 5 элементов
+        }
+      });
+    });
+    $('.custom-next').click(() => $('.owl-carousel').trigger('next.owl.carousel'));
+    $('.custom-prev').click(() => $('.owl-carousel').trigger('prev.owl.carousel'));
+  </script>
 </body>
 </html>
